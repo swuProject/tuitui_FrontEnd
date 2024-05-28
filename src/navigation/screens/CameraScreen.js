@@ -1,10 +1,10 @@
 import * as React from "react";
 import { View, Text } from "react-native";
 
-export default function ChatScreen({ navigation }) {
+export default function CameraScreen() {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text style={{ fontSize: 26, fontWeight: "bold" }}>Chat Screen</Text>
+      <Text style={{ fontSize: 26, fontWeight: "bold" }}>Camera Screen</Text>
     </View>
   );
 }
